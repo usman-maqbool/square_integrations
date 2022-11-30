@@ -77,17 +77,8 @@ class Employe:
     def __repr__(self):
         return "Employe('{}', '{}', '{}')".format(self.name, self.lname, self.email)
 
-
-
-
-
-
     def __str__(self):
         return '{} - {}'.format(self.classfunc(), self.email)
-
-
-
-
 #     @classmethod
 #     def all_increment_class_method(cls,amount):
 #         cls.increment = amount

@@ -58,10 +58,11 @@ usman_str = "Usman-Maqbool-27-5456345"
 mngr_1 = Manager('Jhon', 'Doe', 24, 10000, [devEm]) 
 # print(mngr_1.email, 'i am printing email')
 new_develpor = Develpor('New', 'Develpor', 24, 10000, 'html')
+new_develpor1 = Develpor('New1', 'Develpor1', 26, 50000, 'React')
 
-# mngr_1.add_employe(new_develpor)
-# print("I am just")
-# mngr_1.print_employe()
+mngr_1.add_employe(new_develpor1)
+print("I am just")
+mngr_1.print_employe()
 
 # print(new_develpor.email)
 # print(devEm.email)
